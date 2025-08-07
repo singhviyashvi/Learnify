@@ -8,7 +8,7 @@ color:#1B3C53;}
     position:fixed;
     height:100%;
     width:100%; 
-   z-index:-1;
+   z-index:-1;   /* imp */
 
 }
 /* NAVBAR */
@@ -20,9 +20,9 @@ color:#1B3C53;}
     display:flex; 
     justify-content:space-between; 
     align-items:center; 
-    position:fixed; 
+    position:fixed; /* imp */
     top:0; 
-    z-index:1000;
+    z-index:1000; /* imp */
 }
 .navthings{ 
     display:flex; 
@@ -32,36 +32,36 @@ color:#1B3C53;}
 }
 .learnify-logo{ 
     height:60px; 
-    width:220px;
+    width:150px;
     background-image:url(learnify.png);
     background-size:contain;
 }
 .navlink{ 
     color:#F9F3EF;
-    text-decoration:none;
+    text-decoration:none; /* imp */
     font-size:1.5rem;
-    transition:all 1s ease-out 0s;
+    transition:all 1s ease-out 0s; /* imp */
 }
  .navlink:hover{ 
-transform:scale(1.15);
+transform:scale(1.15); /* imp */
 
 }
 
 button{ 
     font-size:1.25rem; 
-border-radius:10px;
+border-radius:10px; /* imp */
 padding:10px 20px;
-cursor: pointer;
-transition:all 0.3s normal 0s;
+cursor: pointer; /* imp */
+transition:all 0.3s normal 0s; /* imp */
 text-align:center;
 width:100%;
 
 }
 button:hover{ 
-    background-color:rgb(234, 120, 139);
+    background-color:rgb(234, 120, 139); /* imp */
 }
 #signup{ 
-    margin-right:25px;
+    margin-right:25px; 
 }
 
 /* HOME */
@@ -76,7 +76,7 @@ button:hover{
 }
 .study1{ 
     display:flex; 
-    flex-direction:column;
+    flex-direction:column; 
     height:350px; 
     width:47%;
     border: 5px solid #1B3C53; 
@@ -120,7 +120,7 @@ margin-top:2%;
     border: 5px solid #1B3C53; 
     border-radius:20px;
     margin:20px;
-    flex-direction:column;
+    flex-direction:column;/* imp */
     padding:20px;
 }
 .courseimg{ 
